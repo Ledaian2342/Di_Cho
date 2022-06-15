@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="30dp"
-        android:text="Dự án 1 - Nhóm 3"
+        android:text="Nhóm 1"
         android:gravity="center"/>
 
     <ImageView
@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/info_title"
-        android:src="@drawable/di_cho" />
+        android:src="@drawable/title" />
 
     <TextView
         android:id="@+id/app_name"
@@ -38,7 +38,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/app_name"
-        android:text="Tạ Sơn Tùng - PH14727 (Team Lead)"/>
+        android:text="Hoàng Huy Dũng "/>
     <TextView
         android:id="@+id/title_design"
         android:gravity="center"
@@ -48,7 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/title_lead"
-        android:text="Lê Đại An - PH14616 (UI/UX - Document)"/>
+        android:text="Lê Đại An  "/>
     <TextView
         android:id="@+id/title_hbm"
         android:gravity="center"
@@ -58,5 +58,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/title_design"
-        android:text="Hoàng Bá Minh - PH14790"/>
+        android:text="Trương Văn Tú"/>
+    <TextView
+        android:id="@+id/title_hbm1"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_design"
+        android:text="Nguyễn Tài Chuẩn"/>
 </RelativeLayout>

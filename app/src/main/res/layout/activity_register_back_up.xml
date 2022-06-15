@@ -58,14 +58,14 @@
 
     <ImageView
         android:id="@+id/imageView11"
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="452dp"
+        android:layout_marginBottom="550dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.552"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/di_cho" />
+        app:srcCompat="@drawable/title" />
 
     <EditText
         android:id="@+id/ed_reg_name"

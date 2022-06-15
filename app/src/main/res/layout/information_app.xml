@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/info_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Dự án 1 - Nhóm 3"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info_title"
+        android:src="@drawable/di_cho" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_logo"
+        android:text="Ứng dụng mua bán online"/>
+
+    <TextView
+        android:id="@+id/title_lead"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:padding="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_name"
+        android:text="Tạ Sơn Tùng - PH14727 (Team Lead)"/>
+    <TextView
+        android:id="@+id/title_design"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:padding="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_lead"
+        android:text="Lê Đại An - PH14616 (UI/UX - Document)"/>
+    <TextView
+        android:id="@+id/title_hbm"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:padding="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_design"
+        android:text="Hoàng Bá Minh - PH14790"/>
+</RelativeLayout>
